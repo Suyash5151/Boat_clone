@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box
+}
+
+.topbar{
+    height: 38px;
+    background-color: #f0ebeb;
+    
+}
+
+.text{
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+.navbar{
+    height: 76px;
+    background-color: #ffffff;
+    color: black;
+    margin-left:30px;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+}
+
+
+.nav-logo{
+    
+    height: 35px;
+    width: 85px;
+}
+
+.logo{
+    background-image: url("boat_1.svg");
+    background-size: cover;
+    height: 35px;
+    width: 100%;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 2, 2);
+
+}
+
+.nav-categories{
+    margin-left: 100px;
+    display: flex;
+
+}
+
+.boAt-Personalisation{
+    margin-left: 20px;
+   
+}
+
+.Gift-with-boAt{
+    margin-left: 20px;
+    
+}
+
+.Corporate-Orders{
+    
+    margin-left: 20px;
+}
+
+.More{
+    
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-search{
+    display: flex;
+    margin-left: 400px;
+    
+    width:200px;
+    height:20px;
+
+    
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 3px 3px 3px 3px;  
+}
+
+.account{
+    margin-left:20px;
+}
+.cart{
+    margin-left: 15px;
+}
+
+
+
+
+
+.hero-section{
+    background-image: url("Nirvana boat.webp");
+    height: 600px;
+    width: 1500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+}
+
+
+
+
+.explore{
+    margin-left: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 2, 2);
+    font-size: 1.5rem;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+.bestsellers{
+    display: flex;
+}
+
+.box1{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.box2{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.box3{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.box4{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.box5{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+
+.shop{
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 2, 2);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.category{
+    display: flex;
+}
+
+.c1{
+    background-image: url("True-wireless-earbuds_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c2{
+    background-image: url("Neckbands_small.png");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c3{
+    background-image: url("Smartwatches_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c4{
+    background-image: url("Wireless-Headphones_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c5{
+    background-image: url("Wireless-Speaker_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c6{
+    background-image: url("Wired-Headphones_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c7{
+    background-image: url("Wired-Earphones_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c8{
+    background-image: url("Soundbars_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c9{
+    background-image: url("Gaming-Headphones_small.png");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c10{
+    background-image: url("Partyspeakers.avif");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c11{
+    background-image: url("Trimmers_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+.c12{
+    background-image: url("Chargers_small.webp");
+    height:82px;
+    width:82px;
+    margin-top:10px;
+    margin-right: 45px;
+}
+
+
+
+.newlaunch{
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 2, 2);
+    margin-left: 30px;
+    margin-top: 10px;  
+    font-size: 1.5rem; 
+    
+}
+.newwatch{
+    display: flex;
+
+}
+.w1{
+    background-image: url("Ultima_Select.webp");
+    height:676px;
+    width:546px;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+.w2{
+    background-image: url("Lunar_Link.webp");
+    height:676px;
+    width:546px;
+    margin-top:10px;
+    margin-right: 20px;
+
+}
+.w3{
+    background-image: url("ION_ANC__1.webp");
+    height:676px;
+    width:546px;
+    margin-top:10px;
+    margin-right: 20px;
+
+}
+.w4{
+    background-image: url("AD_91.webp");
+    height:676px;
+    width:546px;
+    margin-top:10px;
+    margin-right: 20px;
+
+}
+
+
+
+
+/*.cricket{
+    display: flex;
+}
+.life{
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 2, 2);
+    margin-left: 30px;
+    margin-top: 10px;  
+    font-size: 1.5rem; 
+    
+}
+.cricketer1{
+    background-image: url("shreyas-chronos-new.webp");
+    height:479px;
+    width:322px;
+    margin-top:10px;
+    margin-right: 20px;
+
+}
+.cricketer2{
+    background-image: url("Party_Animal_4.webp");
+    height:1452px;
+    
+    width:976px;
+    width: 50%;
+    margin-top:10px;
+    margin-right: 20px;
+
+}
+.cricketer3{
+    background-image: url("Workaholic_2.webp");
+    height:425px;
+    width:285px;
+    
+    margin-top:10px;
+    margin-right: 20px;
+
+}
+.cricketer4{
+    background-image: url("Audiophile_5.webp");
+    height:425px;
+    width:285px;
+    margin-top:10px;
+    margin-right: 20px;
+
+}*/
+
+
+.text_tribe{
+    text-decoration: underline;
+    text-decoration-color: rgb(220, 2, 2);
+    margin-left: 30px;
+    margin-top: 10px;  
+    font-size: 1.5rem; 
+
+
+}
+.tribe{
+    display: flex;
+}
+.z1{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.z2{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.z3{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.z4{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.z5{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.z6{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
